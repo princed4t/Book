@@ -1,0 +1,7 @@
+server:
+  port: 1230
+spring:
+  application:
+    name: booksearch
+  config:
+    import: configserver:http://localhost:2242
